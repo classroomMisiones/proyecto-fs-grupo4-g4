@@ -1,0 +1,92 @@
+#banner {
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient(rgba(40, 58, 90, 0.7), rgba(40, 58, 90, 0.7)), url(../../assets/img/fondo.png) fixed center center;
+  background-size: cover;
+}
+
+#banner .container {
+  padding-top: 72px;
+}
+
+#banner h1 {
+  margin: 0 0 10px 0;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+#banner h2 {
+  margin-bottom: 50px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 24px;
+}
+
+#banner .btn-registrarse {
+  display: inline-block;
+  margin: 10px 0 0 0;
+  padding: 10px 28px 11px 28px;
+  background: #47b2e4;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.5s;
+}
+
+#banner .btn-registrarse:hover {
+  background: #209dd8;
+}
+
+@media (max-width: 992px) {
+  #banner {
+    height: 100vh;
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  #banner .banner-img {
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  #banner .banner-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  #banner h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  #banner h2 {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  #banner .banner-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+  #banner .banner-img img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 575px) {
+  #banner .btn-registrarse {
+    padding: 10px 24px 11px 24px;
+    font-size: 16px;
+  }
+}
