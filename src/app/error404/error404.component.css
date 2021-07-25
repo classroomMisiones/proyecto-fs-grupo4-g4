@@ -68,7 +68,7 @@
   text-transform: uppercase;
 }
   
-.pagina.error .btn-atras {
+.pagina-error .btn-atras {
   display: inline-block;
   padding: 12px 30px;
   background: #3498db;
