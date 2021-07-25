@@ -2,16 +2,26 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
-import { LoginComponent } from './login/login.component';
+import { Error404Component } from './error404/error404.component';
+import { LoginComponent } from './dashboard/login/login.component';
+import { RegistrarComponent } from './dashboard/registrar/registrar.component';
 
 const routes: Routes = [
+  {
+    path:'home',
+    component:HomeComponent
+  },
+  {
+    path:'error-404',
+    component:Error404Component
+  },
   {
     path:'login',
     component:LoginComponent
   },
   {
-    path:'home',
-    component:HomeComponent
+    path:'registrar',
+    component:RegistrarComponent
   }
 ];
 
