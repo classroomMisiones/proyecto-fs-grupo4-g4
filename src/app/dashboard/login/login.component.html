@@ -1,38 +1,30 @@
-<!--<section class="login-bg">
-    <div class="cover"></div>
-  </section>
--->
-  <section class="login-box">
-    <div class="card">
-        <div class="card-body login-body">
-            <p class="card-text">¡Hola! Ingresá tu usuario y tu contraseña</p>
-            <form action="#" method="post" enctype="multipart/form-data">
-                <div class="mb-4">
-                    <div class="input-group">
-                        <span class="input-group-text"><i class="fas fa-user-alt"></i></span>
-                        <input class="form-control" type="text" name="usuario" placeholder="Introduzca su nombre de usuario" autocomplete="off" required>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-6 seccion-login">
+            <div class="brand-wrapper">
+                <img class="img-fluid logo" src="assets/img/logo.png" alt="logo">
+            </div>
+            <div class="login-box my-auto">
+                <h1 class="login-title">¡Bienvenido!</h1>
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <div class="form-group mb-4">
+                        <label for="usuario">Usuario</label>
+                        <input class="form-control" type="text" id="usuario" name="usuario"  placeholder="Ingrese su nombre de usuario o su correo" autocomplete="off" required="">
                     </div>
-                </div>
-                <div class="mb-4">
-                    <div class="input-group">
-                        <span class="input-group-text"><i class="fas fa-lock"></i></span>
-                        <input class="form-control" type="password" name="password" placeholder="Introduzca su contraseña" autocomplete="off" required>
+                    <div class="form-group mb-4">
+                        <label for="password">Contraseña</label>
+                        <input class="form-control" type="password" id="password" name="password" placeholder="Ingrese su contraseña" autocomplete="off" required="">
                     </div>
+                    <button type="submit" class="btn btn-login">Ingresar</button>
+                </form>
+                <div class="text-end">
+                    <a href="#" class="forgot-password">No sé mi clave</a>
                 </div>
-                <div class="row mb-4">
-                    <div class="col-6 d-flex justify-content-start">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="recordar" name="recordar" checked="">
-                            <label class="form-check-label" for="recordar">Recuérdame</label>
-                        </div>
-                    </div>
-                    <div class="col-6 d-flex justify-content-end"><a href="#">No sé mi clave</a></div>
-                </div>
-                <button class="btn btn-login" type="submit">Ingresar</button>
-                <div class="text-center mt-4">
-                    <p>¿No tenés cuenta?&nbsp;<a routerLink="/registrar">Registrate</a></p>
-                </div>
-            </form>
+                <p class="login-footer">¿No tenés una cuenta? <a href="#!" class="text-reset fw-bold">Registrate</a></p>
+            </div>
+        </div>
+        <div class="col-lg-6 px-0 d-none d-sm-block">
+            <img class="img-login" src="assets/img/billetera_virtual.png" alt="">
         </div>
     </div>
-  </section>
+</div>
