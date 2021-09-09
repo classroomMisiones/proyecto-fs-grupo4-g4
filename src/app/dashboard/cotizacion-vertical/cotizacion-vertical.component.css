@@ -1,0 +1,115 @@
+.bloque{
+    border: 2px  solid rgb(206, 186, 186);
+    align-items: center;
+  text-align: center;
+  
+}
+
+.simbolo{
+    text-align:right ;
+}   
+
+.espacio{
+    margin-left: 1px;
+}
+.espaciocrypto{
+    margin-left: 7%;
+    padding-bottom: 20px;
+}
+
+
+.botones{
+    padding-left: 70px;
+    margin-top: 15px;
+    margin-bottom: 10px
+}
+
+.titulo{
+    margin-top: 37px;
+    padding-left: 10%;
+
+}
+
+.imagen{
+    width: 130px; height: 120px;
+}
+
+.dividor{
+    margin-top: 3%;
+    
+    
+    
+    
+
+}
+
+.fondo{
+    border-radius: 50px;
+background: #ffffff;
+box-shadow:  7px -7px 39px #7d7d7d,
+             -7px 7px 39px #ffffff;
+            
+
+             margin-bottom: 5%;
+             margin-top: 1%;
+ 
+}
+.fondo1{
+    border-radius: 39px;
+background: #ffffff;
+box-shadow:  7px 7px 39px #7d7d7d,
+             -7px -7px 39px #ffffff;
+             margin-bottom: 1%;
+             margin-top: 1%;
+}
+.var{
+    font-size:18px;
+    
+}
+
+.tamañovar{
+    padding-bottom: 10px;
+    margin-left: 5%;
+}
+
+.margen{
+    padding-left: 8%;
+    padding-top: 10px;
+}
+.distaciavar{
+    padding-right: 20%;
+}
+
+.letraverde{
+    color: green;
+}
+
+.letraroja{
+    color: red;
+}
+
+.tituloprincipal{
+    padding: 1%;
+    font-family:Helvetica,Monaco,Georgia,Times,serif;
+    border-bottom: 1px  solid rgb(206, 186, 186);
+    font-weight: bold;
+}
+
+.tamañoletra{
+    font-size: 30px;
+}
+
+.cotizacion{
+    padding: 2%;
+}
+
+.espacios{
+    
+    margin-top: 2%;
+}
+
+
+/*aqui va lo del  compnente movimientos*/
+
+
+

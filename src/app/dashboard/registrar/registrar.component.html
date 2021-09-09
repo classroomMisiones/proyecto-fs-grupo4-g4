@@ -1,0 +1,113 @@
+<section class="registro-usuario">
+    <div class="container">
+        <div class="seccion-titulo">
+            <h3>Registración de Usuario</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <div class="card">
+                        <div class="card-header">
+                            <h6>Datos personales</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <label>Nro. Documento</label>
+                                    <input class="form-control" type="number" name="nro-documento" autocomplete="off" required>
+                                </div>
+                                <div class="col-lg-4">
+                                    <label>Apellido</label>
+                                    <input class="form-control" type="text" name="apellido" autocomplete="off" required>
+                                </div>
+                                <div class="col-lg-6">
+                                    <label>Nombres</label>
+                                    <input class="form-control" type="text" name="nombres" autocomplete="off" required>
+                                </div>
+                                <div class="col-lg-6">
+                                    <label>Fecha Nacimiento</label>
+                                    <input class="form-control" type="date" name="fecha-nacimiento" autocomplete="off" reuired>
+                                </div>
+                                <div class="col-lg-6">
+                                    <label>Sexo</label>
+                                    <select class="form-control" name="sexo">
+                                        <optgroup label="Seleccione opción">
+                                            <option value="1">Femenino</option>
+                                            <option value="2">Masculino</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h6>Datos Domicilio</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <label>Calle</label>
+                                    <input class="form-control" type="text" name="calle" autocomplete="off" required>
+                                </div>
+                                <div class="col-lg-2">
+                                    <label>Nro.</label>
+                                    <input class="form-control" type="number" name="nro-calle" autocomplete="off">
+                                </div>
+                                <div class="col-lg-2">
+                                    <label>Piso</label>
+                                    <input class="form-control" type="text" name="piso" autocomplete="off">
+                                </div>
+                                <div class="col-lg-2">
+                                    <label>Dpto.</label>
+                                    <input class="form-control" type="text" name="dpto" autocomplete="off">
+                                </div>
+                                <div class="col-lg-6">
+                                    <label>Localidad</label>
+                                    <select class="form-control" name="localidad">
+                                        <optgroup label="Seleccione opción">
+                                            <option value="1">Localidad</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+                                <div class="col-lg-6">
+                                    <label>Provincia</label>
+                                    <select class="form-control" name="provincia">
+                                        <optgroup label="Seleccione opción">
+                                            <option value="1">Provincia</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h6>Datos de la cuenta</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <label>Correo electrónico</label>
+                                    <input class="form-control" type="email" name="email" autocomplete="off" required>
+                                </div>
+                                <div class="col-lg-3">
+                                    <label>Contraseña</label>
+                                    <input class="form-control" type="password" name="password" autocomplete="off" required>
+                                </div>
+                                <div class="col-lg-3">
+                                    <label>Reingrese la contraseña</label>
+                                    <input class="form-control" type="password" name="reingreso-pass" autocomplete="off" required>
+                                </div>
+                            </div>
+                            <div class="text-end mt-4">
+                                <button class="btn btn-aceptar" type="submit"><i class="fas fa-save"></i> Aceptar</button>
+                                <button routerLink="/" class="btn btn-secondary" type="reset"><i class="fas fa-times"></i> Cancelar</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

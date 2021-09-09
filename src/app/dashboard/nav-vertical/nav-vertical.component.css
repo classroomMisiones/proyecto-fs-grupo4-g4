@@ -1,0 +1,15 @@
+
+.bloque{
+    border-bottom: 1px  solid rgb(206, 186, 186);
+    font-family:Helvetica,Monaco,Georgia,Times,serif;
+
+  
+}
+h5{
+    font-size:20px;
+    color:#04b37c;
+}
+h4{
+    font-weight: bold;
+    color:#04b37c;
+}

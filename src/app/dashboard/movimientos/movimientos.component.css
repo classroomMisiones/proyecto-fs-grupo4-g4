@@ -1,0 +1,39 @@
+p{
+    font-size:20px;
+}
+.bloque{
+    border: 2px  solid rgb(206, 186, 186);
+    
+  
+}
+
+.centro{
+    justify-content:center;
+    padding: 2%;
+    
+}
+.linea{
+    border-bottom: 1px  solid rgb(206, 186, 186);
+    padding: 10px;
+}
+.fondo{
+    border-radius: 39px;
+    background: #ffffff;
+    box-shadow:  7px -7px 39px #7d7d7d,
+                 -7px 7px 39px #ffffff;
+                
+    
+                 margin-bottom: 1%;
+                 margin-top: 1%;
+     
+}
+
+.actividad{
+    padding: 10px;
+    font-size:35px;
+}
+
+.minimizar{
+    font-size:10px;
+    height: 10px;
+}

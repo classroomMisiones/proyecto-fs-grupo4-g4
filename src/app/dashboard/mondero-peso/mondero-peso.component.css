@@ -1,0 +1,73 @@
+.bloque{
+    border: 2px  solid rgb(206, 186, 186);
+    align-items: center;
+  text-align: center;
+  
+}
+
+.simbolo{
+    text-align:right ;
+}   
+.espacioletra{
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+.espacioletra1{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.espacio{
+    margin-left: 50px;
+}
+.espaciocrypto{
+    margin-left: 8%;
+}
+
+
+.botones{
+    
+    margin-top: 15px;
+    
+}
+
+.titulo{
+    margin-top: 37px;
+    
+}
+
+.imagen{
+    width: 130px; height: 120px;
+}
+
+.dividor{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+.fondo{
+    border-radius: 39px;
+background: #ffffff;
+box-shadow:  7px -7px 39px #7d7d7d,
+             -7px 7px 39px #ffffff;
+            
+
+             margin-bottom: 1%;
+             margin-top: 1%;
+ 
+}
+.fondo1{
+    border-radius: 39px;
+background: #ffffff;
+box-shadow:  7px 7px 39px #7d7d7d,
+             -7px -7px 39px #ffffff;
+             margin-bottom: 1%;
+             margin-top: 1%;
+}
