@@ -44,16 +44,21 @@
   }
 }
 
+.login-box span {
+  color: #842029;
+  font-size: 12px;
+}
+
 .login-box label {
   color: #b0adad;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: bold;
 }
 
 .login-box .form-control {
   padding: 9px 5px;
   min-height: 40px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
   border: none;
   border-bottom: 1px solid #e7e7e7;
@@ -79,29 +84,12 @@
   background: #209dd8;
 }
 
-.login-box a.forgot-password {
-  display: inline-block;
-  margin-bottom: 54px;
-  color: #333;
-  font-size: 14px;
-  text-decoration: none;
-}
-
-@media (max-width: 575px) {
-  .login-box a.forgot-password {
-    margin-bottom: 16px;
-  }
-}
-
-.login-box a.forgot-password:hover {
-  color: #555;
-}
-
 .login-title {
   margin-bottom: 25px;
   font-size: 30px;
   color: #333;
   font-weight: bold;
+  text-align: center;
 }
 
 .login-footer {

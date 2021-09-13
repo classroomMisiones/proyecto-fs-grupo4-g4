@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-login',
@@ -8,14 +9,24 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
 
-  constructor(private router:Router) { }
+  myForm: FormGroup;
+
+  constructor(private fb:FormBuilder, private router:Router) {
+    this.myForm = this.fb.group({
+      usuario: ['', [Validators.required]],
+      password: ['', [Validators.required]]
+    });
+  }
 
   ngOnInit(): void {
   }
 
-  fnHaciaDash(){
-   this.router.navigateByUrl("/Dash");
+  login(){
+    console.log(this.myForm.value);
   }
 
+  fnHaciaDash(){
+    this.router.navigateByUrl("/Dash");
+   } 
 
 }
