@@ -21,6 +21,7 @@ import { NavVerticalComponent } from './dashboard/nav-vertical/nav-vertical.comp
 import { CotizacionVerticalComponent } from './dashboard/cotizacion-vertical/cotizacion-vertical.component';
 import { MonederoCriptosComponent } from './dashboard/monedero-criptos/monedero-criptos.component';
 import { MonderoPesoComponent } from './dashboard/mondero-peso/mondero-peso.component';
+import { PerfilComponent } from './dashboard/perfil/perfil.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { MonderoPesoComponent } from './dashboard/mondero-peso/mondero-peso.comp
          NavVerticalComponent,
          CotizacionVerticalComponent,
          MonederoCriptosComponent,
-         MonderoPesoComponent
+         MonderoPesoComponent,
+         PerfilComponent
   ],
   imports: [
     BrowserModule,

@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { Error404Component } from './error404/error404.component';
 import { LoginComponent } from './dashboard/login/login.component';
 import { RegistrarComponent } from './dashboard/registrar/registrar.component';
+import { PerfilComponent } from './dashboard/perfil/perfil.component';
 import { AyudaComponent } from './ayuda/ayuda.component';
 import { TerminosComponent } from './terminos/terminos.component';
 import { DashComponent } from './dashboard/dash/dash.component';
@@ -31,6 +32,10 @@ const routes: Routes = [
   {
     path:'registrar',
     component:RegistrarComponent
+  },
+  {
+    path:'perfil',
+    component:PerfilComponent
   },
   {
     path:'Ayuda',
