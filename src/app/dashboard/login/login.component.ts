@@ -13,8 +13,8 @@ export class LoginComponent implements OnInit {
 
   constructor(private fb:FormBuilder, private router:Router) {
     this.myForm = this.fb.group({
-      usuario: ['', [Validators.required]],
-      password: ['', [Validators.required]]
+      usuario: ['', [Validators.required, Validators.email]],
+      password: ['', [Validators.required, Validators.minLength(8)]]
     });
   }
 
@@ -22,11 +22,12 @@ export class LoginComponent implements OnInit {
   }
 
   login(){
-    console.log(this.myForm.value);
+//    console.log(this.myForm.value);
+      this.router.navigateByUrl("/Dash");
   }
 
   fnHaciaDash(){
-    this.router.navigateByUrl("/Dash");
-   } 
+//    this.router.navigateByUrl("/Dash");
+  } 
 
 }

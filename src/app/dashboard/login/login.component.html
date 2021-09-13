@@ -9,13 +9,16 @@
                 <form [formGroup]="myForm" (ngSubmit)="login()" novalidate>
                     <div class="form-group mb-3">
                         <label for="usuario">Usuario</label>
-                        <input class="form-control" type="text" formControlName="usuario"  placeholder="Ingrese su nombre de usuario o su correo" autocomplete="off">
+                        <input class="form-control" type="email" formControlName="usuario"  placeholder="Ingrese su correo" autocomplete="off">
+                        <span *ngIf="this.myForm.get('usuario')?.errors?.email" class="text-danger">Ingrese un correo válido</span>
                     </div>
                     <div class="form-group mb-3">
                         <label for="password">Contraseña</label>
                         <input class="form-control" type="password" formControlName="password" placeholder="Ingrese su contraseña" autocomplete="off">
+                        <span *ngIf="this.myForm.get('password')?.errors?.minlength" class="text-danger">La contraseña debe tener al menos 8 caracteres</span>
                     </div>
-                    <button type="submit" class="btn btn-login" [disabled]="myForm.invalid" (click)="fnHaciaDash()">Ingresar</button>
+<!--                    <button type="submit" class="btn btn-login" [disabled]="myForm.invalid" (click)="fnHaciaDash()">Ingresar</button>-->
+                    <button type="submit" class="btn btn-login" [disabled]="myForm.invalid">Ingresar</button>
                 </form>
                 <div class="text-end mt-3">
                     <a href="#" class="forgot-password">No sé mi clave</a>
