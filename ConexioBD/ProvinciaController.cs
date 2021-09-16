@@ -17,14 +17,9 @@ namespace yaguarete.Controllers
         [HttpGet]
         public IHttpActionResult Get()
         {
-            //return new string[] { "value1", "value2" };
+           
             DataTable prov = new DataTable();
-            /* using (SqlConnection conector = new SqlConnection(conexion))
-             {
-                 conector.Open();
-                 SqlDataAdapter adaptador = new SqlDataAdapter("Select * from provincias",conector);
-                 adaptador.Fill(prov);
-             }*/
+            
             prov = Conexion.select("Provincias");
             return Ok(prov);
         }
@@ -39,12 +34,7 @@ namespace yaguarete.Controllers
             return Ok(prov);
         }
 
-        /* // POST: api/Provincia
-         public void Post([FromBody] string value)
-         {
-         }*/
-
-        // POST: api/Provincia
+      
 
         [HttpPost]
         public IHttpActionResult Post(Models.Provincia unaProvincia)
@@ -54,11 +44,7 @@ namespace yaguarete.Controllers
           //  {
                 string sql = "insert into Provincias (provincia) values ('" + unaProvincia.NomProvincia + "')";
                 Conexion.insert(sql);
-           // }catch(SqlException ex)
-          //  {
-              //  msg = ex.Message;
-               
-           // }
+           
             return Ok(msg);
     
         }

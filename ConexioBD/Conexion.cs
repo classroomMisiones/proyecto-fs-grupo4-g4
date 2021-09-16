@@ -37,11 +37,7 @@ namespace yaguarete.Controllers
         public static void insert(string sql) 
         {
 
-            /* SqlCommand cmd = new SqlCommand(sql, conector);
-             conector.Open();
-             cmd.ExecuteNonQuery();
-
-             conector.Close();*/
+            
            
             conector.Open();
             SqlCommand cmd = new SqlCommand();
