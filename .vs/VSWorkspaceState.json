@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ConexioBD"
+    "\\BaseDeDatos",
+    "\\BaseDeDatos\\Modelo1"
   ],
-  "SelectedNode": "\\ConexioBD\\Conexion.cs",
+  "SelectedNode": "\\BaseDeDatos\\Modelo1\\CrearBD.sql",
   "PreviewInSolutionExplorer": false
 }
